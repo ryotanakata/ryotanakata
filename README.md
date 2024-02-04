@@ -1,16 +1,26 @@
-### Hi there 👋
-
-<!--
-**ryotanakata/ryotanakata** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```jsx
+export const RyotaNakata = () => (
+  <>
+    <Frontend
+      title="フロントエンド"
+      years={5}
+      languages={["JavaScript", "React", "Next.js", "Liquid"]}
+      markups={["HTML", "CSS", "Sass", "Scss"]}
+    />
+    <Backend
+      title="バックエンド"
+      years={3}
+      languages={["PHP", "Laravel", "Node.js"]}
+      databases={["MySQL", "MariaDB"]}
+    />
+    <Design
+      title="デザイン"
+      years={12}
+      fields={["WEB", "UI/UX", "Graphic"]}
+      tools={["Illustrator", "Photoshop", "Figma"]}
+    />
+    // TODO: スキルをもっと追加
+    <Others title="その他" direction videoEdit logicalThink />
+  </>
+);
+```
