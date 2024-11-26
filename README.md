@@ -3,7 +3,7 @@ export const RyotaNakata = () => (
   <>
     <Frontend
       title="フロントエンド"
-      years={5}
+      years={6}
       languages={["JavaScript", "TypeScript", "React", "Next.js", "Liquid"]}
       markups={["HTML", "CSS", "Sass", "Scss"]}
     />
