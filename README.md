@@ -6,12 +6,14 @@ export const RyotaNakata = () => (
       years={6}
       languages={["JavaScript", "TypeScript", "React", "Next.js", "Liquid"]}
       markups={["HTML", "CSS", "Sass", "Scss"]}
+      testing={["Jest", "Vitest"]}
     />
     <Backend
       title="バックエンド"
       years={3}
       languages={["PHP", "Laravel", "Node.js"]}
       databases={["MySQL", "MariaDB"]}
+      testing={["PHPUnit"]}
     />
     <Design
       title="デザイン"
