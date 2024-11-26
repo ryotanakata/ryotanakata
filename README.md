@@ -19,8 +19,10 @@ export const RyotaNakata = () => (
       fields={["WEB", "UI/UX", "Graphic"]}
       tools={["Illustrator", "Photoshop", "Figma"]}
     />
-    // TODO: スキルをもっと追加
-    <Others title="その他" direction videoEdit logicalThink />
+    <Personal
+      title="個人開発"
+      urls={["html5nest.com", "fonkmotorcycle.jp", "ukka.cc"]}
+    />
   </>
 );
 ```
