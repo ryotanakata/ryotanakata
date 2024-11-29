@@ -23,7 +23,11 @@ export const RyotaNakata = () => (
     />
     <Personal
       title="個人開発"
-      urls={["html5nest.com", "fonkmotorcycle.jp", "ukka.cc"]}
+      projects={[
+        { name: "HTML5Nest - マークアップ支援ツール", url: "html5nest.com" },
+        { name: "フォンクモーターサイクル - 公式サイト", url: "fonkmotorcycle.jp" },
+        { name: "ukka - ECサイト", url: "ukka.cc" },
+      ]}
     />
   </>
 );
