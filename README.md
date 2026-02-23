@@ -24,7 +24,7 @@ export const RyotaNakata = () => (
       title="個人開発"
       projects={[
         { name: "tanshuku - シンプルな国産URL短縮サービス", url: "tanshuku.site" },
-        { name: "b-graph - ビーモン会員のための、ワークアウト記録サービス", url: "b-graph.me" },
+        { name: "b-graph - ビーモン会員のための、モチベーション管理ツール", url: "b-graph.me" },
         { name: "HTML5Nest - HTMLタグの入れ子を視覚化する開発支援ツール", url: "html5nest.com" },
         { name: "フォンクモーターサイクル - バイクカスタム店公式サイト", url: "fonkmotorcycle.jp" },
         { name: "ukka - オーダーメイドアクセサリー店ECサイト", url: "ukka.cc" },
